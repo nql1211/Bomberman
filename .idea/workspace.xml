@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9764ed39-a6b7-4cf2-834b-7d77a29cfd28" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/Bom/Bom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/Bom/BomBig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/Boomber/Super.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/Boomber/ThanChet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/Boomber/ThoSan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/Boomber/Thuyentruong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/Boss/BossGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/Boss/Quaiden.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/Boss/RoiDen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/Boss/RoiDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Chung/Door.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Item/item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Item/powerup_bombs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Item/powerup_flames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Item/powerup_speed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapBangGame/NguoiTuyet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapBangGame/Thung1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapBangGame/Thung2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapGarden.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapGardenGame/Co.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapGardenGame/Tuongdoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapGardenGame/cay1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapGardenGame/cay2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapGardenGame/nendat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapGardenGame/nendichuyen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapGardenGame/tre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapGardenGame/tuongngang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/Menu/MenuBoomber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/Menu/MenuMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/Menu/ScrollItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/ShowGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneOptionGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PanePlay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/PaneStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Game/SoundGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boom.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Boom.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/Bom/BomNotren3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/Bom/Bomnotrai3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/Bom/bomNo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/Bom/bomNo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/Bom/bomNoTren2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/Bom/bomNoduoi1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/Bom/bomNoduoi2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/Bom/bomNophai1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/Bom/bomNophai2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/Bom/bomNophai3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/Bom/bomNotrai1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/Bom/bomNotrai2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/Bom/bomNotren1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/Bom/bomnoduoi3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/MapGame/MapBang/bang.png" beforeDir="false" afterPath="$PROJECT_DIR$/Image/MapGame/MapBang/bang.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/MapGame/MapBang/nenbang.png" beforeDir="false" afterPath="$PROJECT_DIR$/Image/MapGame/MapBang/nenbang.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/MapGame/MapBang/nguoituyet.png" beforeDir="false" afterPath="$PROJECT_DIR$/Image/MapGame/MapBang/nguoituyet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/MapGame/MapBang/thung1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Image/MapGame/MapBang/thung1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/MapGame/MapBang/thung2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Image/MapGame/MapBang/thung2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/MapGame/MapCity/nennha.png" beforeDir="false" afterPath="$PROJECT_DIR$/Image/MapGame/MapCity/nennha.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/MapGame/MapCity/nha2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Image/MapGame/MapCity/nha2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/MapGame/MapNhaMay/gach1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/MapGame/MapNhaMay/nen1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/MapGame/MapNhaMay/tuong.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/MapGame/NenDichuyen/nendat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/bomber/Hulk/hulklen1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Image/bomber/Hulk/hulklen1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/bomber/Hulk/hulklen2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Image/bomber/Hulk/hulklen2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/bomber/Hulk/hulklen3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Image/bomber/Hulk/hulklen3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/bomber/Hulk/hulkphai1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Image/bomber/Hulk/hulkphai1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/bomber/Hulk/hulkphai2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Image/bomber/Hulk/hulkphai2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/bomber/Hulk/hulkphai3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Image/bomber/Hulk/hulkphai3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/bomber/Hulk/hulktrai1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Image/bomber/Hulk/hulktrai1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/bomber/Hulk/hulktrai2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Image/bomber/Hulk/hulktrai2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/bomber/Hulk/hulktrai3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Image/bomber/Hulk/hulktrai3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/bomber/Hulk/hulkxuong1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Image/bomber/Hulk/hulkxuong1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/bomber/Hulk/hulkxuong2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Image/bomber/Hulk/hulkxuong2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/bomber/Hulk/hulkxuong3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Image/bomber/Hulk/hulkxuong3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/die.png" beforeDir="false" afterPath="$PROJECT_DIR$/Image/die.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/nennha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/GameBoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Boom/com/company/GameBoom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/LoadImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Boom/com/company/LoadImage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Boom/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/Bom/Bom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/Boomber/Boomber$TrangThai.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/Boomber/Boomber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/Boomber/Hulk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/Boomber/Ninja.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/InputMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Item/OVuong.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Item/PhaHuyDuoc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapBang.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapBangGame/Gach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapBangGame/caybang.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapBangGame/gocphaiduoi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapBangGame/gocphaitren.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapBangGame/goctraiduoi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapBangGame/goctraitren.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapBangGame/nenBang.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapBangGame/tuongduoi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapBangGame/tuongphai.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapBangGame/tuongtrai.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapBangGame/tuongtren.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapCity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapCityGame/Gach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapCityGame/NenCity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapCityGame/NenNha.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapCityGame/Nha1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapCityGame/Nha10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapCityGame/Nha11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapCityGame/Nha12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapCityGame/Nha13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapCityGame/Nha14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapCityGame/Nha15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapCityGame/Nha16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapCityGame/Nha17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapCityGame/Nha18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapCityGame/Nha19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapCityGame/Nha2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapCityGame/Nha20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapCityGame/Nha3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapCityGame/Nha4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapCityGame/Nha5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapCityGame/Nha6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapCityGame/Nha7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapCityGame/Nha8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapCityGame/Nha9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapCityGame/Tuongdoc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapCityGame/tuongngang.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapNhaMay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapNhaMayGame/Gach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapNhaMayGame/NenDichuyen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapNhaMayGame/Thung1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapNhaMayGame/Thung2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/Map/MapNhaMayGame/Tuong.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/MapGame/MapGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/PaneGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/PaneLeft.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/PaneRight$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/PaneRight$ShowGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneGame/PaneRight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/PaneStart/PaneStart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/libarary$ToaDo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Boom/com/company/libarary$ToaDo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Boom/com/company/libarary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Boom/com/company/libarary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/GameBoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/GameBoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/LoadImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/LoadImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/Bom/Bom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/Boomber/Boomber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/Boomber/Boomber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/Boomber/Hulk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/Boomber/Hulk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/Boomber/Ninja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/Boomber/Ninja.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/InputMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/InputMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Item/OVuong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Chung/OVuong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Item/PhaHuyDuoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Chung/PhaHuyDuoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapBang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapBang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapBangGame/Gach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapBangGame/Gach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapBangGame/caybang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapBangGame/caybang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapBangGame/gocphaiduoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapBangGame/gocphaiduoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapBangGame/gocphaitren.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapBangGame/gocphaitren.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapBangGame/goctraiduoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapBangGame/goctraiduoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapBangGame/goctraitren.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapBangGame/goctraitren.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapBangGame/nenBang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapBangGame/nenBang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapBangGame/tuongduoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapBangGame/tuongduoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapBangGame/tuongphai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapBangGame/tuongphai.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapBangGame/tuongtrai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapBangGame/tuongtrai.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapBangGame/tuongtren.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapBangGame/tuongtren.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapCity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapCity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapCityGame/Gach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapCityGame/Gach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapCityGame/NenCity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapCityGame/NenCity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapCityGame/NenNha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapCityGame/NenNha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapCityGame/Nha1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapCityGame/Nha1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapCityGame/Nha10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapCityGame/Nha10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapCityGame/Nha11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapCityGame/Nha11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapCityGame/Nha12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapCityGame/Nha12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapCityGame/Nha13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapCityGame/Nha13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapCityGame/Nha14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapCityGame/Nha14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapCityGame/Nha15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapCityGame/Nha15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapCityGame/Nha16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapCityGame/Nha16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapCityGame/Nha17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapCityGame/Nha17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapCityGame/Nha18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapCityGame/Nha18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapCityGame/Nha19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapCityGame/Nha19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapCityGame/Nha2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapCityGame/Nha2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapCityGame/Nha20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapCityGame/Nha20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapCityGame/Nha3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapCityGame/Nha3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapCityGame/Nha4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapCityGame/Nha4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapCityGame/Nha5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapCityGame/Nha5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapCityGame/Nha6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapCityGame/Nha6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapCityGame/Nha7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapCityGame/Nha7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapCityGame/Nha8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapCityGame/Nha8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapCityGame/Nha9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapCityGame/Nha9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapCityGame/Tuongdoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapCityGame/Tuongdoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapCityGame/tuongngang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapCityGame/tuongngang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapNhaMay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapNhaMay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapNhaMayGame/Gach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapNhaMayGame/Gach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapNhaMayGame/NenDichuyen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapNhaMayGame/NenDichuyen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapNhaMayGame/Thung1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapNhaMayGame/Thung1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapNhaMayGame/Thung2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapNhaMayGame/Thung2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/Map/MapNhaMayGame/Tuong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapNhaMayGame/Tuong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/MapGame/MapGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/MapGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/PaneGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/PaneLeft.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneGame/PaneRight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PaneStart/PaneStart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/libarary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/libarary.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="216978249">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="30" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.31" value="2" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.37" value="4" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.41" value="2" />
+          <entry key="project.open.time.42" value="2" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.44" value="2" />
+          <entry key="project.open.time.45" value="2" />
+          <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.78" value="1" />
+          <entry key="project.opened" value="31" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="81" />
+          <entry key="JAVA" value="492" />
+          <entry key="PLAIN_TEXT" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="51152" />
+          <entry key="PLAIN_TEXT" value="168" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="492" />
+          <entry key="jpg" value="27" />
+          <entry key="png" value="54" />
+          <entry key="txt" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="163" />
+          <entry key="java" value="51152" />
+          <entry key="txt" value="5" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-945798169">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Boom" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneStart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="53" column="58" selection-start-line="53" selection-start-column="58" selection-end-line="53" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <folding>
+                <element signature="e#115#116#0" expanded="true" />
+                <element signature="e#157#158#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/LoadImage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="13" column="78" selection-start-line="13" selection-start-column="78" selection-end-line="13" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/GameBoom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneNotification.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1360">
+              <caret line="89" column="15" selection-start-line="89" selection-start-column="15" selection-end-line="89" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Game/PanePlay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1207">
+              <caret line="80" column="72" selection-start-line="80" selection-start-column="72" selection-end-line="80" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneOptionGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="54" column="12" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/libarary.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneGame/ShowGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1071">
+              <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/company/Menu/ScrollGame.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Menu/MenuMap.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneStart/PaneOption.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneStart/PaneOptionGame.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/Boomber/NguoiTim.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/Boomber/Thuyentruong.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/Boomber/ThoSan.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/Boomber/ThanChet.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/Boomber/Super.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneStart/PaneStart.java" />
+        <option value="$PROJECT_DIR$/a.txt" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Chung/Gach.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Chung/Window.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Chung/Door.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/Boomber/Hulk.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/InputMap.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/PaneOptionGame.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapNhaMayGame/Tuong.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapNhaMayGame/NenDichuyen.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapNhaMayGame/Gach.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/ThoiGianChoi.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/PaneNotification.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/PanePlay.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapCityGame/NenCity.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/Bom/BomBig.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Item/item.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/Menu/MenuBoomber.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/Menu/MenuMap.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Sound.java" />
+        <option value="$PROJECT_DIR$/src/com/company/SoundGame.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/Bom/Bom.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/Boomber/Boomber.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/SoundGame.java" />
+        <option value="$PROJECT_DIR$/src/com/company/libarary.java" />
+        <option value="$PROJECT_DIR$/src/com/company/GameBoom.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/Menu/ScrollItem.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneStart.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/Boss/BossGame.java" />
+        <option value="$PROJECT_DIR$/src/com/company/LoadImage.java" />
+        <option value="$PROJECT_DIR$/src/com/company/AI.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/Boss/Quaiden.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapCity.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapGarden.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapBang.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapNhaMay.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/MapGame.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneNotification.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneOptionGame.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PanePlay.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Game/PaneGame/ShowGame.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1347" />
+    <option name="height" value="729" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Boom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Boom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Boom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Boom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Boom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Boom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Boom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Boom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="Game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Boom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Boom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="Game" type="462c0819:PsiDirectoryNode" />
+              <item name="PaneGame" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Boom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Boom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="Game" type="462c0819:PsiDirectoryNode" />
+              <item name="PaneGame" type="462c0819:PsiDirectoryNode" />
+              <item name="MapGame" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Boom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Boom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="Game" type="462c0819:PsiDirectoryNode" />
+              <item name="PaneGame" type="462c0819:PsiDirectoryNode" />
+              <item name="MapGame" type="462c0819:PsiDirectoryNode" />
+              <item name="Map" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="audiof&#9;PSI&#9;JAVA://javax.sound.sampled.AudioFileFormat&#10;audioFo&#9;PSI&#9;JAVA://javax.sound.sampled.AudioFormat" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543078893773" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pc\IdeaProjects\Boom\src\com\company\Game\PaneGame\MapGame" />
+      <recent name="C:\Users\Pc\IdeaProjects\Boom\src\com\company\Game\PaneGame\Menu" />
+      <recent name="C:\Users\Pc\IdeaProjects\Boom\Image\MapGame" />
+      <recent name="C:\Users\Pc\IdeaProjects\Boom\Image\MapGame\NenDichuyen" />
+      <recent name="C:\Users\Pc\IdeaProjects\Boom\Image\MapGame\Gach" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.Game.PaneGame.MapGame.Chung" />
+      <recent name="com.company.Game.PaneGame.Boomber" />
+      <recent name="com.company.PaneGame.Boss" />
+      <recent name="com.company.PaneGame.MapGame.Map.MapGardenGame" />
+      <recent name="com.company.PaneGame.MapGame.Map.MapGarden" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pc\IdeaProjects\Boom\src\com\company\Game\PaneGame\MapGame\Map" />
+      <recent name="C:\Users\Pc\IdeaProjects\Boom\src\com\company\PaneGame\MapGame\Map\MapGarden" />
+      <recent name="C:\Users\Pc\IdeaProjects\Boom\src\com\company\PaneGame\MapGame\Map\MapCityGame" />
+      <recent name="C:\Users\Pc\IdeaProjects\Boom" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="Boom" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9764ed39-a6b7-4cf2-834b-7d77a29cfd28" name="Default Changelist" comment="" />
+      <created>1541175406606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541175406606</updated>
+      <workItem from="1541175419817" duration="600000" />
+      <workItem from="1541207624051" duration="114000" />
+      <workItem from="1541207748913" duration="5653000" />
+      <workItem from="1541213449136" duration="26384000" />
+      <workItem from="1541241667140" duration="6679000" />
+      <workItem from="1541248762859" duration="1954000" />
+      <workItem from="1541327121286" duration="4983000" />
+      <workItem from="1541333453629" duration="651000" />
+      <workItem from="1541401361290" duration="11022000" />
+      <workItem from="1541509223528" duration="11097000" />
+      <workItem from="1541556705346" duration="21515000" />
+      <workItem from="1541637115658" duration="14993000" />
+      <workItem from="1541674305434" duration="3282000" />
+      <workItem from="1541682558147" duration="1786000" />
+      <workItem from="1541769115040" duration="14812000" />
+      <workItem from="1541863496975" duration="3328000" />
+      <workItem from="1542036120089" duration="4202000" />
+      <workItem from="1542096703249" duration="17277000" />
+      <workItem from="1542160195720" duration="1692000" />
+      <workItem from="1542186186017" duration="16342000" />
+      <workItem from="1542359354473" duration="12302000" />
+      <workItem from="1542453516052" duration="17661000" />
+      <workItem from="1542545415678" duration="1458000" />
+      <workItem from="1542629080192" duration="15025000" />
+      <workItem from="1542765237158" duration="13327000" />
+      <workItem from="1542783131265" duration="38492000" />
+      <workItem from="1542859051795" duration="26064000" />
+      <workItem from="1542954423895" duration="16112000" />
+      <workItem from="1542971402926" duration="15391000" />
+      <workItem from="1543026861818" duration="27361000" />
+      <workItem from="1543146347383" duration="5702000" />
+    </task>
+    <task id="LOCAL-00001" summary="aa">
+      <created>1542187576910</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542187576910</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="357261000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20939597" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" weight="0.32980332" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32307693" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24822696" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32903227" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32307693" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2246596" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" weight="0.32980332" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32419354" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32903227" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32419354" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="aa" />
+    <option name="LAST_COMMIT_MESSAGE" value="aa" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneGame/Boomber/Ninja.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="109" selection-start-line="22" selection-start-column="109" selection-end-line="22" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneGame/Boomber/Thuyentruong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneGame/Boomber/Super.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneGame/Boomber/ThoSan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneGame/Boomber/ThanChet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/MapCity.txt" />
+    <entry file="file://$PROJECT_DIR$/a.txt" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Chung/Door.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneGame/Boomber/Hulk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/InputMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapNhaMayGame/Tuong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="79" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapNhaMayGame/NenDichuyen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="80" selection-start-line="10" selection-start-column="80" selection-end-line="10" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapNhaMayGame/Gach.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="81" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/ThoiGianChoi.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneGame/Boss/RoiDen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapCityGame/NenCity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="82" selection-start-line="10" selection-start-column="82" selection-end-line="10" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="220" selection-start-line="220" selection-end-line="220" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.desktop/javax/sound/sampled/AudioSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="1031" selection-start-line="1031" selection-end-line="1031" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.desktop/javax/sound/sampled/AudioFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7376">
+          <caret line="128" column="13" selection-start-line="128" selection-start-column="13" selection-end-line="128" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.desktop/javax/sound/sampled/AudioFileFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4605">
+          <caret line="94" column="13" selection-start-line="94" selection-start-column="13" selection-end-line="94" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Item/item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneGame/Menu/MenuBoomber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneGame/Menu/MenuMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/JLayer1.0.1/srctest/javazoom/jl/player/jlpTest.java" />
+    <entry file="file://$USER_HOME$/Downloads/JLayer1.0.1/src/javazoom/jl/player/JavaSoundAudioDevice.java" />
+    <entry file="file://$USER_HOME$/Downloads/JLayer1.0.1/src/javazoom/jl/player/Player.java" />
+    <entry file="file://$USER_HOME$/Downloads/JLayer1.0.1/src/javazoom/jl/player/PlayerApplet.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneGame/Bom/BomBig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneGame/Bom/Bom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="31" column="9" selection-start-line="20" selection-start-column="8" selection-end-line="31" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/SoundGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneGame/Menu/ScrollItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="106" column="39" selection-start-line="106" selection-start-column="39" selection-end-line="106" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneGame/Boomber/Boomber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+          <folding>
+            <element signature="e#9047#9048#0" expanded="true" />
+            <element signature="e#9104#9105#0" expanded="true" />
+            <element signature="e#10094#10095#0" expanded="true" />
+            <element signature="e#10122#10123#0" expanded="true" />
+            <element signature="e#10248#10249#0" expanded="true" />
+            <element signature="e#10277#10278#0" expanded="true" />
+            <element signature="e#10309#10310#0" expanded="true" />
+            <element signature="e#10339#10340#0" expanded="true" />
+            <element signature="e#10435#10436#0" expanded="true" />
+            <element signature="e#10490#10491#0" expanded="true" />
+            <element signature="e#10516#10517#0" expanded="true" />
+            <element signature="e#10571#10572#0" expanded="true" />
+            <element signature="e#10612#10613#0" expanded="true" />
+            <element signature="e#10647#10648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneGame/Boss/BossGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="112" column="9" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Animation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneGame/Boss/Quaiden.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapGarden.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapBang.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapCity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/Map/MapNhaMay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneGame/MapGame/MapGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="53" column="52" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/AI.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="53" column="58" selection-start-line="53" selection-start-column="58" selection-end-line="53" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/LoadImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="78" selection-start-line="13" selection-start-column="78" selection-end-line="13" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/GameBoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneNotification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="89" column="15" selection-start-line="89" selection-start-column="15" selection-end-line="89" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PanePlay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="80" column="72" selection-start-line="80" selection-start-column="72" selection-end-line="80" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneOptionGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="54" column="12" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/libarary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Game/PaneGame/ShowGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Boom</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
